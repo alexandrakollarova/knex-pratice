@@ -1,5 +1,3 @@
-BEGIN;
-
 INSERT INTO blogful_articles (date_published, title, content) 
     VALUES
         ('2016-01-16 12:00:00', 'About', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '),
@@ -26,4 +24,3 @@ INSERT INTO blogful_articles (date_published, title, content)
         ('2016-01-16 12:00:00', 'Sport', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ')
 ;
 
-COMMIT;
